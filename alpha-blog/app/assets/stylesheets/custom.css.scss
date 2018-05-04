@@ -1,0 +1,96 @@
+$navbar-default-bg: #08088A;
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('background.png');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #BBBBBB;
+  text-align:center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.btn-xlg {
+  font-size: 1.7rem;
+  background: black;
+}
+
+.btn-xlg:hover {
+  background: darkgrey;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+
+}
+
+.description {
+  margin-top: 0;
+}
+
+.article-title {
+  font-weight:bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.badge {
+  background-color: #cef6f5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
